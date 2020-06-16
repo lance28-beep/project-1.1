@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital@0;1&family=Montserrat:wght@300&display=swap");
+/*-------Basic Setup------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+/*-----Header------*/
+body {
+  background-color: #a0270f;
+}
+
+.logo-heading {
+  border-top: 1px double #fafafa;
+  margin: 10px auto;
+}
+.logo-heading h1 {
+  text-align: center;
+  color: #fafafa;
+  background-color: #a0270f;
+  padding: 20px 20px 0px 20px;
+  font-family: "Aleo", serif;
+  letter-spacing: 4px;
+  font-weight: 200;
+}
+
+.logo-heading p {
+  text-align: center;
+  color: #fafafa;
+  background-color: #a0270f;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px;
+  padding: 10px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+/*----Navbar---*/
+.nav-bar {
+  text-align: center;
+  background-color: #fafafa;
+  text-transform: uppercase;
+}
+
+.nav-bar a {
+  color: #a0270f;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+.nav-bar a:hover {
+  transition: background 1s linear;
+  background: #a0270f;
+  color: #fafafa;
+}
+/*-------about-text-------*/
+.text-about {
+  padding: 0 50px;
+}
+
+.text-about h2 {
+  color: #a0270f;
+  margin: 30px 0;
+  font-family: "Aleo", serif;
+}
+
+.text-about p {
+  font-weight: 400;
+  color: #a0270f;
+  margin-bottom: 10px;
+}
+
+.text-about a {
+  color: #a0270f;
+  font-weight: 700;
+}
+
+.text-about a:hover {
+  text-decoration: underline;
+  text-decoration-color: #a0270f;
+}
+/*-------show-product------*/
+.show-items {
+  margin-top: 30px;
+  padding: 0 50px;
+}
+
+.product {
+  background-color: #a0270f;
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  color: #ffffff;
+}
+
+.product .product-text {
+  padding: 20px;
+}
+
+.product img {
+  padding: 10px;
+  margin: auto;
+  width: 35%;
+  height: 100%;
+}
+
+.product-text h2 {
+  margin-bottom: 10px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.product-text p {
+  font-weight: 300;
+  font-size: 16px;
+}
+/*--footer--*/
+footer {
+  background-color: #fafafa;
+  text-align: center;
+  color: #a0270f;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 18px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  li {
+    display: block;
+  }
+  .nav-bar a {
+    padding: 0;
+    margin: 10px;
+  }
+  .nav-bar a:hover {
+    text-decoration: underline;
+    color: #a0270f;
+  }
+  .product {
+    display: block;
+  }
+  .product h2 {
+    text-align: center;
+  }
+  .product img {
+    width: 100%;
+  }
+}
